@@ -22,6 +22,7 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
   background: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg");
+  background-repeat: no-repeat, no-repeat;
 }
 
 .flex {

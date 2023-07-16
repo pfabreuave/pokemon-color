@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/pokeIco.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./js/app.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Pokemon|SASS</title>
+    
+</head>
+<!-- <body onload="document.getElementById('valor').focus()"> -->
+<body>
+    
+    <main class="flex"></main>
+        <template id="template-card">
+            <article id="art" class="card">
+                <div class="salida">
+                    <a href="Javascript:window.top.close()">
+                        <img class="imasal" src="images/logo.png" alt="Logo Pokédex">
+                    </a>  
+                    <div class="text-overlay">
+                      <p>SAIR</p>
+                    </div>
+                  </div>
+                <form id="formulario" action="#">
+                    <div id="form" class="input-container">
+                        <input  id="pok" 
+                                class="input" 
+                                type="number" 
+                                placeholder="Nº Pokémon + Click"
+                                onclick="proceso()"
+                                autofocus
+                        />
+                        <div class="topline"></div>
+                        <div class="underline"></div>
+                    </div>
+                </form>
+                <img src="./images/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+                <div id="img" class="card-body">
+                    <img src="./images/pokemon_icon.png" alt="imagen de vitoko" class="card-body-img">
+                    <h1 class="card-body-title">
+                        <span></span>
+                    </h1>
+                    <p class="card-body-text"></p>
+                    <p class="card-body-type"></p>
+                </div>
+                <div class="card-footer">
+                    <div class="card-footer-social">
+                        <h3></h3>
+                        <p>Ataque</p>
+                    </div>
+                    <div class="card-footer-social">
+                        <h3></h3>
+                        <p>Especial</p>
+                    </div>
+                    <div class="card-footer-social">
+                        <h3></h3>
+                        <p>Defensa</p>
+                    </div>
+                </div>
+            </article>
+        </template>
+</body>
+</html>

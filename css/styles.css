@@ -240,6 +240,11 @@ input[type=number] {
   z-index: -1;
 }
 
+@media (max-width: 700px) {
+  .imasal {
+    max-width: 0%;
+  }
+}
 
 
 /*# sourceMappingURL=styles.css.map */

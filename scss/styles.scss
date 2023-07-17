@@ -26,7 +26,6 @@
     // background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     // background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-    
 
 
   }
@@ -240,6 +239,15 @@
     transition: all 0.5s;
     transform: scale(0);
     z-index: -1;
+  }
+
+  @media (max-width: 700px) {
+    // Utility Classes
+    .imasal {
+      
+      max-width: 0%;
+      
+    }
   }
   
   /*# sourceMappingURL=styles.css.map */

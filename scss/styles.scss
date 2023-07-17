@@ -23,13 +23,10 @@
   body {
     font-family: "Kumbh Sans", sans-serif;
     background-image: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg");
-    width: auto;
-    height: auto;
-    // background-color: var(--dark-grem);
-    // background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat, no-repeat;
-    //background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
   }
   
@@ -244,14 +241,14 @@
     z-index: -1;
   }
 
-  @media (max-width: 700px) {
-    // Utility Classes
-    .imasal {
+  // @media (max-width: 700px) {
+  //   // Utility Classes
+  //   .imasal {
       
-      max-width: 0%;
+  //     max-width: 0%;
       
-    }
-  }
+  //   }
+  // }
   
   /*# sourceMappingURL=styles.css.map */
   

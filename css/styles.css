@@ -22,9 +22,10 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-image: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg");
-  width: auto;
-  height: auto;
-  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .flex {
@@ -242,11 +243,6 @@ input[type=number] {
   z-index: -1;
 }
 
-@media (max-width: 700px) {
-  .imasal {
-    max-width: 0%;
-  }
-}
 
 
 /*# sourceMappingURL=styles.css.map */
